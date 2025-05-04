@@ -1,4 +1,4 @@
-# 🚀 Americanolabs Backend
+# Backend
 
 An Express-based API that fetches and updates staking data from the Ethereum blockchain using ethers.js and Prisma ORM. Built for Web3 developers! 🌐💰
 
@@ -13,8 +13,8 @@ An Express-based API that fetches and updates staking data from the Ethereum blo
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/optifi-edu/backend.git
-   cd backend
+   git clone https://github.com/optifi-pharos/api.git
+   cd api
    ```
 2. Install dependencies:
    ```sh
@@ -23,7 +23,7 @@ An Express-based API that fetches and updates staking data from the Ethereum blo
 3. Create a `.env` file and configure environment variables:
    ```env
    DATABASE_URL=
-   EDUCHAIN_TESTNET_RPC_URL=
+   RPC_URL=
    ```
 4. Run database migrations (if using Prisma):
    ```sh
