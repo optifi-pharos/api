@@ -1,4 +1,4 @@
-# 🚀 opti Backend
+# Backend
 
 A simple Node.js API using Express, Prisma, and Ethers.js to fetch and update staking data on the Pharos Devnet network.
 
@@ -39,8 +39,8 @@ A simple Node.js API using Express, Prisma, and Ethers.js to fetch and update st
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/staking` | Get all staking data |
-| `GET` | `/staking/:idProtocol` | Get staking data by protocol ID |
-| `GET` | `/staking/:address` | Get staking data by token address |
+| `GET` | `/staking/protocol/:idProtocol` | Get staking data by protocol ID |
+| `GET` | `/staking/address/:address` | Get staking data by token address |
 | `POST` | `/staking/update` | Update staking data from blockchain |
 
 ## 🔗 Token Contracts
