@@ -67,8 +67,8 @@ const MOCK_TOKEN_DATA = {
       symbol: "DAI",
       name: "DAI",
       decimals: 18,
-      chain: "Base Sepolia",
-      logo: "https://cryptologos.cc/logos/dai-dai-logo.png",
+      chain: "Pharos Devnet",
+      logo: "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=040",
       priceChange24H: 0,
       tags: []
     },
@@ -78,8 +78,8 @@ const MOCK_TOKEN_DATA = {
       symbol: "USDC",
       name: "USD Coin",
       decimals: 6,
-      chain: "Base Sepolia",
-      logo: "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
+      chain: "Pharos Devnet",
+      logo: "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=040",
       priceChange24H: 0,
       tags: ["STABLECOIN"]
     },
@@ -89,8 +89,8 @@ const MOCK_TOKEN_DATA = {
       symbol: "USDT",
       name: "Tether USD",
       decimals: 6,
-      chain: "Base Sepolia",
-      logo: "https://cryptologos.cc/logos/tether-usdt-logo.png",
+      chain: "Pharos Devnet",
+      logo: "https://images.seeklogo.com/logo-png/32/1/tether-usdt-logo-png_seeklogo-323175.png",
       priceChange24H: 0,
       tags: ["STABLECOIN"]
     },
@@ -100,8 +100,8 @@ const MOCK_TOKEN_DATA = {
       symbol: "UNI",
       name: "Uniswap",
       decimals: 18,
-      chain: "Base Sepolia",
-      logo: "https://cryptologos.cc/logos/uniswap-uni-logo.png",
+      chain: "Pharos Devnet",
+      logo: "https://cryptologos.cc/logos/uniswap-uni-logo.png?v=040",
       priceChange24H: 0,
       tags: []
     },
@@ -111,7 +111,7 @@ const MOCK_TOKEN_DATA = {
       symbol: "WETH",
       name: "Wrapped Ether",
       decimals: 18,
-      chain: "Base Sepolia",
+      chain: "Pharos Devnet",
       logo: "https://img.cryptorank.io/coins/weth1701090834118.png",
       priceChange24H: 0,
       tags: []
@@ -126,14 +126,14 @@ const INIT_DATA = [
     "addressStaking": "0x0CAf83Ef2BA9242F174FCE98E30B9ceba299aaa3",
     "nameToken": "DAI",
     "nameProject": "StargateV3",
-    "chain": "Base Sepolia",
+    "chain": "Pharos Devnet",
     "apy": 25,
     "tvl": 0,
     "stablecoin": false,
     "categories": [
       "Staking"
     ],
-    "logo": "https://cryptologos.cc/logos/dai-dai-logo.png",
+    "logo": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=040",
     "createdAt": "2025-02-12T16:35:14.136Z",
     "updatedAt": "2025-02-12T16:35:14.136Z"
   },
@@ -143,7 +143,7 @@ const INIT_DATA = [
     "addressStaking": "0x5dC10711C60dd5174306aEC6Fb1c78b895C9fA5A",
     "nameToken": "USDC",
     "nameProject": "AaveV3",
-    "chain": "Base Sepolia",
+    "chain": "Pharos Devnet",
     "apy": 30,
     "tvl": 0,
     "stablecoin": true,
@@ -151,7 +151,7 @@ const INIT_DATA = [
       "Staking",
       "Stablecoin"
     ],
-    "logo": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
+    "logo": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=040",
     "createdAt": "2025-02-12T16:35:14.135Z",
     "updatedAt": "2025-02-12T16:35:14.135Z"
   },
@@ -161,7 +161,7 @@ const INIT_DATA = [
     "addressStaking": "0xD1b1954896009800dF01b197A6E8E1d98FF44ae8",
     "nameToken": "USDT",
     "nameProject": "CompoundV3",
-    "chain": "Base Sepolia",
+    "chain": "Pharos Devnet",
     "apy": 15,
     "tvl": 0,
     "stablecoin": true,
@@ -169,7 +169,7 @@ const INIT_DATA = [
       "Staking",
       "Stablecoin"
     ],
-    "logo": "https://cryptologos.cc/logos/tether-usdt-logo.png",
+    "logo": "https://images.seeklogo.com/logo-png/32/1/tether-usdt-logo-png_seeklogo-323175.png",
     "createdAt": "2025-02-12T16:35:14.136Z",
     "updatedAt": "2025-02-12T16:35:14.136Z"
   },
@@ -179,14 +179,14 @@ const INIT_DATA = [
     "addressStaking": "0xa42A86906D3FDfFE7ccc1a4E143e5Ddd8dF0Cf83",
     "nameToken": "UNI",
     "nameProject": "Uniswap",
-    "chain": "Base Sepolia",
+    "chain": "Pharos Devnet",
     "apy": 10,
     "tvl": 0,
     "stablecoin": false,
     "categories": [
       "Staking"
     ],
-    "logo": "https://cryptologos.cc/logos/uniswap-uni-logo.png",
+    "logo": "https://cryptologos.cc/logos/uniswap-uni-logo.png?v=040",
     "createdAt": "2025-02-12T16:35:14.135Z",
     "updatedAt": "2025-02-12T16:35:14.135Z"
   },
@@ -196,7 +196,7 @@ const INIT_DATA = [
     "addressStaking": "0x6c36eD76d3FF0A7C0309aef473052b487895Fadf",
     "nameToken": "WETH",
     "nameProject": "UsdxMoney",
-    "chain": "Base Sepolia",
+    "chain": "Pharos Devnet",
     "apy": 20,
     "tvl": 0,
     "stablecoin": false,
