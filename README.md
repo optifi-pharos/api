@@ -1,80 +1,67 @@
-# Backend
+# 🚀 opti Backend
 
-An Express-based API that fetches and updates staking data from the Ethereum blockchain using ethers.js and Prisma ORM. Built for Web3 developers! 🌐💰
+A simple Node.js API using Express, Prisma, and Ethers.js to fetch and update staking data on the Pharos Devnet network.
 
-## ✨ Features
-- 🔍 Fetch staking data for supported tokens
-- 📌 Get staking data by protocol ID or token address
-- 🔄 Update staking data by interacting with smart contracts
-- 🗄️ Uses Prisma ORM for database interactions
-- 🌍 Supports CORS and environment variables
+## 📌 Features
+- Fetch staking data for multiple tokens
+- Retrieve staking data by protocol ID or token address
+- Update staking data from the blockchain
 
-## 📥 Installation
+## 🛠️ Technologies Used
+- **Node.js** (Express.js for backend framework)
+- **Ethers.js** (for blockchain interaction)
+- **Prisma** (for database management)
+- **dotenv** (for environment variables)
+- **CORS** (for cross-origin requests support)
 
-1. Clone this repository:
+## 🔧 Installation
+1. Clone the repository:
    ```sh
-   git clone https://github.com/optifi-pharos/api.git
-   cd api
+   git clone https://github.com/optifi-pharos/backend.git
+   cd backend
    ```
 2. Install dependencies:
    ```sh
    npm install
    ```
-3. Create a `.env` file and configure environment variables:
+3. Set up your `.env` file:
    ```env
-   DATABASE_URL=
-   RPC_URL=
+   PORT=3000
+   DATABASE_URL=your_database_url_here
+   RPC_URL=https://devnet.dplabs-internal.com/
    ```
-4. Run database migrations (if using Prisma):
+4. Run the server:
    ```sh
-   npx prisma migrate dev
+   npm start
    ```
 
-## 🚀 Usage
+## 📡 API Endpoints
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/staking` | Get all staking data |
+| `GET` | `/staking/:idProtocol` | Get staking data by protocol ID |
+| `GET` | `/staking/:address` | Get staking data by token address |
+| `POST` | `/staking/update` | Update staking data from blockchain |
 
-### 🏃 Start the Server
+## 🔗 Token Contracts
+| Token | Address | Staking Contract |
+|--------|----------------------------------|----------------------------------|
+| **UNI** | `0x49eA216d189B9E799711Fb78853c1dA85F2FECd5` | `0x77Ab4Df809ba5D432d209df0A427Dd06730438b6` |
+| **USDC** | `0xa0471Db84Fd1A7094d46C06F73304aA2D7129CD3` | `0x766134D501efe40F9f3feb9df5dD3E333d4be9CC` |
+| **USDT** | `0x693e493B99fdeeb524b056213FC3c0847d8Da4bc` | `0x135F2c540e8b95682D2C726c1cB0dB2f4929fe5B` |
+| **DAI** | `0x3C60fA815cb652dc593dcB709BEc27b6A57fC41f` | `0xe334318C2c027f1714449eEa4757A692d2defD55` |
+| **WETH** | `0xeC179Cb8CD08171449A6Ab47f1fbEbDf781f7De5` | `0x80D7F2AC11Bf1cfe7f534df9d2E1CEA50BC4ee50` |
+
+## ⚡ Quick Test with cURL
+Get all staking data:
 ```sh
-npm run dev  # For development
-yarn start   # For production
+curl -X GET http://localhost:3000/staking
 ```
 
-### 🔗 API Endpoints
-
-#### 📜 Get all staking data
-```http
-GET /staking
+Update staking data:
+```sh
+curl -X POST http://localhost:3000/staking/update
 ```
-
-#### 🔍 Get staking data by protocol ID
-```http
-GET /staking/protocol/:idProtocol
-```
-
-#### 🔎 Get staking data by staking address
-```http
-GET /staking/address/:addressStaking
-```
-
-#### 🔄 Update staking data
-```http
-POST /staking/update
-```
-
-#### 🪙 Get token data
-````http
-GET /token
-````
-
-## 🛠️ Technologies Used
-- 🖥️ **Express.js** - Web framework
-- 🔗 **Ethers.js** - Blockchain interaction
-- 🗄️ **Prisma ORM** - Database management
-- 📜 **TypeScript** - Type safety
-- 🔐 **dotenv** - Environment variable management
-- 🌍 **CORS** - Cross-origin resource sharing
 
 ## 📜 License
-This project is licensed under the **MIT License**.
-
-## 🤝 Contributing
-Feel free to open issues and pull requests to improve the project! 🚀
+This project is open-source and available under the [MIT License](LICENSE).
