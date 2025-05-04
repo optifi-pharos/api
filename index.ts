@@ -68,7 +68,7 @@ const MOCK_TOKEN_DATA = {
       name: "DAI",
       decimals: 18,
       chain: "Pharos Devnet",
-      logo: "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=040",
+      logo: "https://res.cloudinary.com/dutlw7bko/image/upload/v1746334545/token/images_2_fgdpp8.png",
       priceChange24H: 0,
       tags: []
     },
@@ -79,7 +79,7 @@ const MOCK_TOKEN_DATA = {
       name: "USD Coin",
       decimals: 6,
       chain: "Pharos Devnet",
-      logo: "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=040",
+      logo: "https://res.cloudinary.com/dutlw7bko/image/upload/v1746334497/token/images_b5ahna.png",
       priceChange24H: 0,
       tags: ["STABLECOIN"]
     },
@@ -101,7 +101,7 @@ const MOCK_TOKEN_DATA = {
       name: "Uniswap",
       decimals: 18,
       chain: "Pharos Devnet",
-      logo: "https://cryptologos.cc/logos/uniswap-uni-logo.png?v=040",
+      logo: "https://res.cloudinary.com/dutlw7bko/image/upload/v1746334511/token/images_1_lg0gzl.png",
       priceChange24H: 0,
       tags: []
     },
