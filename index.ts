@@ -133,7 +133,7 @@ const INIT_DATA = [
     "categories": [
       "Staking"
     ],
-    "logo": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=040",
+    "logo": "https://res.cloudinary.com/dutlw7bko/image/upload/v1746334545/token/images_2_fgdpp8.png",
     "createdAt": "2025-02-12T16:35:14.136Z",
     "updatedAt": "2025-02-12T16:35:14.136Z"
   },
@@ -151,7 +151,7 @@ const INIT_DATA = [
       "Staking",
       "Stablecoin"
     ],
-    "logo": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=040",
+    "logo": "https://res.cloudinary.com/dutlw7bko/image/upload/v1746334497/token/images_b5ahna.png",
     "createdAt": "2025-02-12T16:35:14.135Z",
     "updatedAt": "2025-02-12T16:35:14.135Z"
   },
@@ -186,7 +186,7 @@ const INIT_DATA = [
     "categories": [
       "Staking"
     ],
-    "logo": "https://cryptologos.cc/logos/uniswap-uni-logo.png?v=040",
+    "logo": "https://res.cloudinary.com/dutlw7bko/image/upload/v1746334511/token/images_1_lg0gzl.png",
     "createdAt": "2025-02-12T16:35:14.135Z",
     "updatedAt": "2025-02-12T16:35:14.135Z"
   },
